@@ -26,7 +26,6 @@ const char PN532_ACK_Data[] = {0x00, 0x00, 0xFF, 0x00, 0xFF, 0x00};
 
 
 
-
 //Forward declarations:
 static void PN532_SPI_WakeUp(void);
 static unsigned char PN532_WaitStatusReady(void);
